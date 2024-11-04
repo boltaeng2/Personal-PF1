@@ -1,0 +1,75 @@
+/* font */
+@font-face{
+  font-family: 'NanumSquareRound';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+#header{
+  position: fixed;
+  height: 80px;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: #fff;
+  z-index: 999;
+}
+#header .inner{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  padding: 0 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+#header .logo{
+  float: left;
+  width: 162px;
+  height: 52px;
+  margin-top: 19px;
+  background: url("../img/ico/logo.svg") no-repeat;
+  background-size: 162px 52px;
+}
+#header .logo a{
+  display: block;
+  height: 100%;
+}
+#header .logo a .hide{
+  
+}
+#header .inner .gnb_ul{
+  display: inline-block;
+  margin: 30px auto 0;
+}
+#header .inner .gnb_ul .gnb_li{
+  position: relative;
+  float: left;
+  font-family: NanumSquareRoundEB;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  margin: 0 16px;
+}
+#header .inner .gnb_ul .gnb_li a{
+  color: #fff;
+  font-family: 'NanumSquareRoundEB';
+}
+#header .inner .login-out{
+  float: right;
+  margin-top: 15px;
+}
+#header .inner .login-out div{
+  
+}
+#header .inner .login-out div .btn{
+  display: block;
+  width: 100px;
+  height: 48px;
+  background-image: url("../img/ico/button_login_white.png");
+  background-size: 100px 48px;
+  font-size: 14px;
+  line-height: 42px;
+  color: #00eda9;
+  font-family: NanumSquareRoundEB;
+}
